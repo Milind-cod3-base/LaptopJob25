@@ -5,15 +5,84 @@ Company: Keysights
 Location: Frankfurt
 
 How to prepare:
-1. go through the job role
-2. go through the submitted cv
+1. go through the job role - done
+	- they want a CPP dev to contribute both in frontend and overall layers of the software architecture
+	- for: 
+		- simulation applications 
+		- integrate real-world physics, interactive visualization, and responsive user interfaces.
+		- want someone in Frankfurt.
+
+2. go through the submitted cv - done
+	- Leipziger Str. 33
+	- education:
+		- master in AI for smart sensors and actuators: deggendorf institute of tech - cham campus
+	- experience:
+		- persys: (8 months)
+			- qt cpp dev - 5 months
+			- qt cpp working student - 3 months
+				- virtual testbench 
+					- simulation software for EDrive: inlclude simulation of electric motor, control sysm, power electronics etc.
+		
+		- AVL: (15 months)
+			- thesis - 6 months
+				- closed loop simulation of ADAS components (build in CPP, matlab etc) using Automotive standards 
+					- FMI 3.0 and ASAM standards like OpenDrive, OpenScenario, and OSI.
+			- working student - 9 months
+				- Adaptive autosar applications development using cpp.
+				
+
 3. go through the company nd then its frankfurt branch. 
+	- tools/solutions for electronic : design, simulation, prototyping, test, manufacturing, and optimisation.
+	- solutions in commnuciation, 5G, automotive, energy, quantum, aerospace, defense and semiconductors.
+	- measurement and caliberation tools. 
+	- PathWave Design and test software - downloaded the catalog pdf
+			- EM modelling and simulation softawre for 3d components
+			- electronic design automation (EDA):	
+			- circuit design
+			- PCB simulations software
+		- Eggplant test automation
+	- frankfurt branch? - it's R&D focused on simulation apps with international team
+
 4. use grok to prepare for interview
 	- soft questions
-	- a strong intro - related to job role (my masters - ai, avl- cpp, simulation, persys- cpp, qt, simulation)
-	- what do u know about the company
-	- what makes me suitable for the role
-	- any questions for us?
+		- Tell me about yourself - a strong intro 
+			- related to job role (my masters - ai, avl- cpp, simulation, persys- cpp, qt, simulation)
+		
+		- what do u know about the company (answered above)
+		
+		- What are your strengths and weaknesses?
+			
+			- strenghts:
+				- Problem Solving
+				- Punctual
+				- adaptability
+				- attention to detail
+				
+			- weaknesses:
+				- task delegation
+					- I used to take on too much; but im working on chunking and distribution of tasks. 
+					- i had learnt about it from my preivous supervisors and will learn more about it from my upcoming seniors at the company
+				- bad presentation skills
+					- I am working on it. as i presented a lot in my previous job role.
+			
+			
+		- what makes me suitable for the role?
+			- previously worked directly with clients, understanding their requirements and building product around it
+			- have build simulation software in avl with cpp and also at persys with cpp and qt.
+			- familiar with both c# and python
+			- familiar with ci cd , cmake tools.
+			- not only fit for this role, but also for broader role- as have AI skills and proficient in multiple tools.
+			- i live in frankfurt - STAND OUT! - Leipziger Str. 33. 8kms.
+			- i have worked in automotive and have skills in embedded, IoT, AI (Eggplant test automation), Digital Twin, communication , aerospace and quantum solutions from masters.
+		
+		- any questions for us?
+			- Can you tell me about the team size and dynamics I’d be working with?
+			- How is feedback provided, and how often are performance reviews conducted?
+	
+	- my salary expectations
+		- 55k per annum
+
 5. also prepare for technical round, just incase there is a techie with her.
 	- chances are super low in 30 mins video call
 	- but still, prepare.
+	
