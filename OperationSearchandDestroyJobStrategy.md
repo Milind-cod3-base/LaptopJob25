@@ -15,7 +15,7 @@ Targeted, multi-channel approach for IT/software jobs. Apply to minimum 10 jobs 
 - **Recruitment Agencies**: Upload CV to FERCHAU, Brunel, Neumüller, Hays, EP Group, TEC Group portals.
 
 ### Keywords
-- **Primary**: "Embedded Software Developer", "AUTOSAR Engineer", "ADAS Engineer", "Robotics Software Developer", "C++ Qt Developer", "AI Sensors Actuators Engineer", "Simulation Software C++".
+- **Primary**: "Embedded Software Developer", "AUTOSAR Engineer", "ADAS Engineer", "Robotics Software Developer", "C++ Qt Developer	", "AI Sensors Actuators Engineer", "Simulation Software C++".
 - **Secondary**: "Microcontroller", "Embedded C", "CANoe", "Simulink", "Vector", "ROS/ROS2", "ADAS".
 - **Location Modifiers**: "Regensburg", "Bavaria", "Germany".
 

@@ -1,0 +1,19 @@
+Interivew #1: 28.08.2025 - 13:00 Uhr
+
+Company: Keysights
+
+Location: Frankfurt
+
+How to prepare:
+1. go through the job role
+2. go through the submitted cv
+3. go through the company nd then its frankfurt branch. 
+4. use grok to prepare for interview
+	- soft questions
+	- a strong intro - related to job role (my masters - ai, avl- cpp, simulation, persys- cpp, qt, simulation)
+	- what do u know about the company
+	- what makes me suitable for the role
+	- any questions for us?
+5. also prepare for technical round, just incase there is a techie with her.
+	- chances are super low in 30 mins video call
+	- but still, prepare.
