@@ -4,6 +4,42 @@ Company: Keysights
 
 Location: Frankfurt
 
+
+Preparation:
+
+1. Intro: 
+	- My name is Milind, I dont have a surname.
+	- I come from India, and I currently live in Frankfurt.
+	- I graduated from masters in AI for smart sensors and actuators in March this year
+		- during whcih i learnt AI and how to integrate it with autonomous / self driving robotics
+		- using python and cpp as tools
+	- During my masters: 
+		- I worked as working student at avl for 9 months
+			- developing cpp applications for self driving cars.
+		- Then I did my master thesis at avl for 6 months
+			- during which i developed simulation component of self driving cars using cpp
+	- After that I worked for 3 months as working student at persystems
+		- where i was developing a edrive simulation application for windows using Cpp and qt
+	
+	- And then since they liked my work, they extended my contract as a full time for next 5 months.
+	- So , I would say not only i bring my cpp experince in this role, but also using my AI skills from masters i can 
+	 contribute in other projects of the company as well. 
+		
+	""My name is Milind. I’m from India, currently living in Frankfurt. I completed my Master’s in AI for Smart Sensors and Actuators 
+	 in March 2025, focusing on AI integration with autonomous robotics using C++ and Python. As a 
+	working student at AVL for 9 months, I developed C++ applications for self-driving cars, followed by a 6-month thesis creating simulation components.
+	At Persystems, I worked 3 months as a student and 5 months full-time, building a simulation app with C++ and Qt. I bring C++ and Qt expertise, plus AI 
+	skills to contribute to Keysight’s simulation projects.""
+
+
+2. One challegnge/ or thing im proud of ?
+
+	- STAR:
+		Situation - A client required graphical node connections in Virtual Testbench for simulating electric components like inverters and batteries. 
+		Task - Find a library and implement it for drag/drop/connect functionality. 
+		Action - Identified Qt Nodes, integrated it into the GUI using C++ and Qt, enhancing user-friendliness. 
+		Result - Improved simulation of e-drive components, making the tool more intuitive and efficient.
+
 How to prepare:
 1. go through the job role - done
 	- they want a CPP dev to contribute both in frontend and overall layers of the software architecture
