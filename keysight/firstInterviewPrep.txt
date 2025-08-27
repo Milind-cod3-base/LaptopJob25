@@ -5,6 +5,18 @@ Company: Keysights
 Location: Frankfurt
 
 
+Tasks:
+
+1. prepare and time ur intro
+2. verbally prepare for the questions
+3. test ur equipments
+4. basic structure of OOPs and DSA?
+	- How to tell if a binary search tree is balanced? Compare different approaches and calculate the complexity.
+	- access modifiers in classes.
+	- bit-level programming, operating systems concepts, brain teasers
+5. prepare behavioural questions:
+	https://theinterviewguys.com/behavioral-interview-questions-and-answers-101/
+
 Preparation:
 
 1. Intro: 
@@ -33,13 +45,20 @@ Preparation:
 
 
 2. One challegnge/ or thing im proud of ?
-
 	- STAR:
 		Situation - A client required graphical node connections in Virtual Testbench for simulating electric components like inverters and batteries. 
 		Task - Find a library and implement it for drag/drop/connect functionality. 
 		Action - Identified Qt Nodes, integrated it into the GUI using C++ and Qt, enhancing user-friendliness. 
 		Result - Improved simulation of e-drive components, making the tool more intuitive and efficient.
 
+3. why do i want to work here?
+	- they are leaders in simulation and integration of AI - my past exp with simulation tools and AI skills. - get to work in different tech 5g , automotive, comms, quantum.
+
+	- "I want to work at Keysight because it’s a leader in technology innovation, especially in simulation applications, 
+	which aligns with my experience developing Virtual Testbench and ADAS simulations using C++ and Qt. The role’s focus on integrating real-world 
+	physics and interactive UIs matches my skills from Persystems and AVL, where I enhanced user experiences and tackled complex engineering challenges. 
+	Keysight’s global R&D team and emphasis on cutting-edge solutions in automotive, 5G, and quantum excite me, offering a chance to grow and contribute with 
+	my AI and simulation expertise. Living in Frankfurt also makes this a perfect fit."
 How to prepare:
 1. go through the job role - done
 	- they want a CPP dev to contribute both in frontend and overall layers of the software architecture
