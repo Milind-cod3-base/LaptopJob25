@@ -7,13 +7,21 @@ Location: Frankfurt
 
 Tasks:
 
-1. prepare and time ur intro
+1. prepare and time ur intro.
+	
+
 2. verbally prepare for the questions
-3. test ur equipments
+
+3. test ur equipments (half done) - (fully tested)
+	- video tested solo. working.
+	- call anmol and test audio.
+		- done - audio clear and demo intro given
+	
 4. basic structure of OOPs and DSA?
 	- How to tell if a binary search tree is balanced? Compare different approaches and calculate the complexity.
 	- access modifiers in classes.
 	- bit-level programming, operating systems concepts, brain teasers
+	
 5. prepare behavioural questions:
 	https://theinterviewguys.com/behavioral-interview-questions-and-answers-101/
 
@@ -25,7 +33,15 @@ Preparation:
 	- I graduated from masters in AI for smart sensors and actuators in March this year
 		- during whcih i learnt AI and how to integrate it with autonomous / self driving robotics
 		- using python and cpp as tools
-	- During my masters: 
+		
+	- Worked for 23 months in simulation technologies as a Cpp developer in two different companies.
+		- self driving software components and its simulation at avl
+		- build edrive simulation software using Cpp and Qt at persystems
+	- so not only i bring Cpp and qt simulation softawre development skills to this job role but also
+	i bring AI skills from my masters
+	 and hence i can contribute to broader vision and projects.
+	
+	- [During my masters: 
 		- I worked as working student at avl for 9 months
 			- developing cpp applications for self driving cars.
 		- Then I did my master thesis at avl for 6 months
@@ -35,7 +51,7 @@ Preparation:
 	
 	- And then since they liked my work, they extended my contract as a full time for next 5 months.
 	- So , I would say not only i bring my cpp experince in this role, but also using my AI skills from masters i can 
-	 contribute in other projects of the company as well. 
+	 contribute in other projects of the company as well. ]
 		
 	""My name is Milind. I’m from India, currently living in Frankfurt. I completed my Master’s in AI for Smart Sensors and Actuators 
 	 in March 2025, focusing on AI integration with autonomous robotics using C++ and Python. As a 
@@ -52,14 +68,17 @@ Preparation:
 		Result - Improved simulation of e-drive components, making the tool more intuitive and efficient.
 
 3. why do i want to work here?
-	- they are leaders in simulation and integration of AI - my past exp with simulation tools and AI skills. - get to work in different tech 5g , automotive, comms, quantum.
+	- they are leaders in simulation and integration of AI - my past exp with simulation tools and AI skills. - get to work in different 
+	tech 5g , automotive, comms, quantum.
 
 	- "I want to work at Keysight because it’s a leader in technology innovation, especially in simulation applications, 
 	which aligns with my experience developing Virtual Testbench and ADAS simulations using C++ and Qt. The role’s focus on integrating real-world 
 	physics and interactive UIs matches my skills from Persystems and AVL, where I enhanced user experiences and tackled complex engineering challenges. 
 	Keysight’s global R&D team and emphasis on cutting-edge solutions in automotive, 5G, and quantum excite me, offering a chance to grow and contribute with 
 	my AI and simulation expertise. Living in Frankfurt also makes this a perfect fit."
+
 How to prepare:
+
 1. go through the job role - done
 	- they want a CPP dev to contribute both in frontend and overall layers of the software architecture
 	- for: 
