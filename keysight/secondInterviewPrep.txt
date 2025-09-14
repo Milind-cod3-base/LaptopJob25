@@ -1,0 +1,225 @@
+Interivew #2: 10.09.2025 - 12:00 Uhr
+
+Company: Keysights
+
+Location: Frankfurt
+
+
+Tasks:
+
+1. prepare and time ur intro.
+	
+
+2. verbally prepare for the questions
+s
+3. test ur equipments 
+	
+4.  OOPs and DSA:
+	- How to tell if a binary search tree is balanced? Compare different approaches and calculate the complexity.
+	- access modifiers / specifiers in classes. (yes)
+	- bit-level programming, operating systems concepts, brain teasers
+	
+5. prepare behavioural questions:
+	https://theinterviewguys.com/behavioral-interview-questions-and-answers-101/
+
+Preparation:
+
+NOTE: 
+1. be calm, learn as much as u can, even if u r high or not
+2. practice about previous experience and basic questions for sure.
+3. debug codes
+4. 10-15 probelems of leetcodeis good. // rest we will see.
+
+1. Intro:  // NEED FIXING, AS THEY NOW KNOW MY BACKGROUND SO THIS IS REDUNDANT, CUT IT SHORT.
+	- My name is Milind
+	- I come from India, and I currently live in Frankfurt.
+	- I graduated from masters in AI for smart sensors and actuators in March this year
+		- during whcih i learnt AI and how to integrate it with autonomous / self driving robotics
+		- using python and cpp as toolss
+		
+	- Worked for 23 months in simulation technologies as a Cpp developer in two different companies.
+		- self driving software components ansssd its simulation at avl
+		- build edrive simulation software using Cpp and Qt at persystems
+	- so not only i bring Cpp and qt simulation softawre development skills to this job role but also
+	i bring AI skills from my masters
+	 and hence i can contribute to broader vision and projects. 
+	sss
+	- [During my masters: 
+		- I worked as working student at avl for 9 months
+			- developing cpp applications for self driving cars.
+		- Then I did my master thesis at avl for 6 months
+			- during which i developed simulation component of self driving cars using cpp
+	- After that I worked for 3 months as working student at persystems
+		- where i was developing a edrive simulation application for windows using Cpp and qt
+	
+	- And then since they liked my work, they extended my contract as a full time for next 5 months.
+	- So , I would say not only i bring my cpp experince in this role, but also using my AI skills from masters ssiss can 
+	 contribute in other projects of the company as well. ]
+		
+	""My name is Milind. I’m from India, currently living in Frankfurt. I completed my Master’s in AI for Smart Sensors and Actuators 
+	 in March 2025, focusing on AI integration with autonomous robotics using C++ and Python. As a 
+	working student at AVL for 9 months, I developed C++ applications for self-driving cars, followed by a 6-month thesis creating simulation components.
+	At Persystems, I worked 3 months as a student and 5 months full-time, building a simulation app with C++ and Qt. I bring C++ and Qt expertise, plus AI 
+	skills to contribute to Keysight’s simulation projects.""
+
+
+2. One challegnge/ or thing im proud of ? // 
+	- STAR:
+		- previously told baout qt nodes
+		- show OTN implants and obs plugin to them.
+			- show both front end and full software stack.
+
+
+3. why do i want to work here?
+	- they are leaders in simulation and integration of AI - my past exp with simulation tools and AI skills. - get to work in different 
+	tech 5g , automotive, comms, quantum.
+
+	- "I want to work at Keysight because it’s a leader in technology innovation, especially in simulation applications, 
+	which aligns with my experience developing Virtual Testbench and ADAS simulations using C++ and Qt. The role’s focus on integrating real-world 
+	physics and interactive UIs matches my skills from Persystems and AVL, where I enhanced user experiences and tackled complex engineering challenges. 
+	Keysight’s global R&D team and emphasis on cutting-edge solutions in automotive, 5G, and quantum excite me, offering a chance to grow and contribute with 
+	my AI and simulation expertise. Living in Frankfurt also makes this a perfect fit."
+
+How to prepare:
+
+- Technical:
+	- CPP and OOPs
+		- Study basics of CPP like ptrs, refernces, templates, classes, etc
+		- study same with Python
+		- Study Qt related codes. // use framework to build soemthing for them. a basic simulation software.
+			- learn library specific code.
+		- Study OOPS
+			- Encapsulation
+			- Polymorphism
+			- Inheritence
+			- Abstraction
+		- What makes new cpp version different from previous version, whats new?
+		- debugging codes
+		- software architectures
+		- what is a const? -  used for immutability
+		- virtual functions and pure virtual functions
+		- inheritance - done
+		- copying and copy constructors
+		- macros
+		- unions
+		- casting
+		- singleton
+		- malloc vs new (done) 
+		- smart pointers
+			- shared
+			- unique
+			- weakptr.
+		- strings and vectors // may be dsa is required.
+		- enums and enum class
+		- circular buffer
+		- multi threading
+			- unique ptrs
+			- shared ptrs
+		- Libraries
+
+			CPP STL : STL Overview, Vectors, List, Pairs, Stack, Queue, Deque, Priority Queue, Set & Multiset, Map & Multimap, Unordered Set, 
+			Unordered Map, Mutating & Non-mutating Algorithms, Strings and more
+			
+	- UML, Class Diagrams & Object Diagrams
+    
+	- QT
+		- QT_Object macro
+		
+		
+ 	- Study DSA	
+		- learn basics from geeks for geeks
+			- go to each data strucuter and learn:
+				- insertion
+				- deletion
+				- traversing / search
+				- Implementation Details: How the structure is built (e.g., nodes, pointers, arrays) and trade-offs (e.g., dynamic vs. static sizing).
+				- Edge Cases: Understand failure modes (e.g., hash collisions, unbalanced trees).
+				- when to use and when to avoid each data structure
+				- Coding Practice: Implement each structure (e.g., array-based stack, trie with arrays) to understand mechanics.
+			
+		- practice the leetcodes.
+		- BST ?
+		- practice oral DSA questons
+		
+		
+		
+- Daily blog:
+
+09.09.2025
+
+	- practice foundational oral questions about oops, cpp, dsa etc.
+	- black box recognition testing of dsa problems
+		- code in both cpp  (15 questions done) 
+	- bst
+	- stl  - cpp
+	- deque - double ended queue, both FIFO and LIFO
+	- uml diagrams
+	- enum vs enum class
+	- debug codes
+	
+	
+	
+	- revision
+	- preparation for the interview like introduction etc.
+	- qt codes :
+		- make project ready for presentation.
+		
+		
+
+		
+		
+08.09.2025
+	- dig deeper into BST.
+	- black box recognition testing 
+	- complete above lists of cpp
+	- basic foundational oral questions of oops, cpp , dsa etc.
+	- note down the interview querstions from glassdoor.
+	- learn to implement basic data strcutures and algos in code.
+	
+	- Practice Qt code
+		- basic knowledge like most used classes, methods and widgets
+
+
+07.09.2025:
+- tasks
+	- go throw DSA at a glance
+		- skim the dsa section
+		
+	- go to each data strucuter and learn:
+		- insertion
+		- deletion
+		- traversing / search
+		- when to use and when to avoid each data structure
+		- use cases of each.
+		- edge cases
+		- Coding Practice: Implement each structure (e.g., array-based stack, trie with arrays) to understand mechanics.
+		
+	- practice some algos. 
+		- monitor their time and space complexity.
+	
+	
+06.09.2025:
+- tasks:
+	- Study DSA
+		- use geeks for geeks to learn basics
+		- time complexity
+			- when does the assumption (one for loop o(n)) fails?
+		- use case/ pros and cons of each datastructure and algo. using grok.
+		
+	- Practice Qt code
+		- basic knowledge like most used classes, methods and widgets
+
+05.09.2025:
+- tasks: all tasks completed
+	- complete basics of cpp
+		- templates
+		- ptrs
+		- refrences
+		- heap vs stack. etc
+		- classes
+		- static
+		- inheritance
+		
+	
+	- if time, then practice OOPs as well.
+		- basic four pillars with examples: Inheritence, Polymorphism, Encapsulation and Abstraction (EPIA).

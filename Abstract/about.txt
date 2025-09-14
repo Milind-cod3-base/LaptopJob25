@@ -1,0 +1,65 @@
+C++ Software Developer (Qt) ⏤ Onsite/Remote - job post
+Abstract
+4.04.0 von 5 Sternen
+Home Office
+Vollzeit
+Informationen zum Profil
+Gleichen Sie hier die Qualifikationen für den Job mit Ihrem Profil
+ab.
+Fähigkeiten
+
+Haben Sie Berufserfahrung im Bereich Scripting?
+&nbsp;
+Stellenbeschreibung
+Gleichen Sie hier die Stellenbeschreibung mit Ihrem Profil
+ab.
+Anstellungsart
+
+&nbsp;
+Arbeitsort
+Home Office
+&nbsp;
+Leistungen
+Aus der vollständigen Stellenbeschreibung
+
+    Legere Kleiderordnung
+    Flexible Arbeitszeiten
+
+&nbsp;
+Vollständige Stellenbeschreibung
+Who We Are
+
+Abstract is where excellence meshes with 3D technology and innovation. We engineer groundbreaking solutions that empower you to elevate your digital experiences to new heights without compromising the vision. From award-winning optimization technology (https://www.youtube.com/@InstaLOD), scalable material creation and authoring tools (https://www.youtube.com/@InstaMAT_io), to seamless scan processing and advanced rendering technologies — we're at the forefront of reshaping how 3D content is imagined, created, and utilized through automation.
+
+But, none of this could be possible without an exceptional team, hungry to learn and determined to challenge the status quo. At Abstract, we foster a culture where every constructive input — from the smallest kernel to the grandest blueprint — is seen, thoroughly evaluated, and brought to life through our unwavering pursuit of excellence.
+The Opportunity
+
+As a Qt C++ Software Developer, you have a sharp eye for detail and deep understanding of software design principles, design patterns, and data structures. Your expertise extends to optimizing performance, ensuring cross-platform compatibility, and crafting modern, responsive UIs that enhance user experiences and streamline workflows. Your commitment to excellence will raise the bar for design and usability standards, empowering users across industries to not only be more productive, but also to have fun while doing so.
+
+What You Can Bring
+
+    Ability to write clean, well-structured C++ code
+    Expertise in error handling, debugging tools and techniques, and defensive programming
+    Proven track record leveraging Qt 6+; Qt Widgets and QML/Qt Quick proficiency is a must
+        Experience with rapid prototyping and iterative design
+    Experience using CMake and scripting with Python
+    Familiar with 3D graphic concepts and APIs such as OpenGL Experience
+
+What We Can Offer
+
+    Transit-friendly office location at the heart of Stuttgart, Germany
+    Cubicle-free environment with flexible hours and monthly work-from-home days
+    25 days paid vacation + 12 paid federal holidays
+    Friendly office culture, casual dress code, and a cheerful Labrador office dog
+    Food catering to the office and unlimited espresso
+
+Benefits, compensation discretionary stock awards, and/or remote working arrangements can be subject to additional requirements, qualifications, and eligibility constraints.
+About Us
+
+Abstract is a group of companies focused on developing bleeding-edge 3D technology:
+
+InstaLOD (https://instalod.com/) | InstaMAT (https://instamaterial.com/) | InstaREC (https://instareconstruct.com/) | RSX Engine (https://rsxengine.com/) | Polyverse (https://hello.polyverse.cloud/)
+
+Our technology enables a diverse range of clients to complete projects on time, achieve significant cost savings, and enjoy the process. From leading AAA game developers like Sega (https://www.youtube.com/watch?v=-Q90L_3wzzQ), Activision and Phoenix Labs (https://www.youtube.com/watch?v=Ibi0GS_yJ4k&t=47s), to the tech-powered creative giants at Accenture Song (https://docs.instalod.io/Case_Studies/Accenture_Song) or technology conglomerates like Kakao (https://docs.instalod.io/Case_Studies/Kakao), as well as major automotive manufacturers such as Ford and Daimler, and aerospace and defense companies like REDACTED utilizing our solutions for training and simulation — our products are trusted across industries.
+
+(https://theabstract.co/)

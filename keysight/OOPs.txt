@@ -1,0 +1,106 @@
+/* OOP Exercise: Library Management System
+Problem: Design a simple library management system in C++ that demonstrates all four OOP principles. 
+Create a program with the following requirements:
+
+Abstraction: Define an abstract base class LibraryItem with a pure virtual function displayInfo() to show item details.
+Inheritance: Create two derived classes, Book and Magazine, that inherit from LibraryItem.
+Encapsulation: Use private/protected data members in LibraryItem and provide public methods to access or modify them 
+(e.g., getters/setters).
+Polymorphism: Use virtual functions to allow different item types to display their specific details when called through a 
+LibraryItem pointer.
+Additional Feature: Include a Library class that can store a collection of LibraryItem pointers and display all items' details.
+
+Example Behavior:
+
+A Book has a title, author, and page count.
+A Magazine has a title, issue number, and publisher.
+The Library class can add items and display all their details polymorphically.
+
+Task: Write the C++ code for this system. Use heap allocation for LibraryItem objects (as we discussed with polymorphism) and 
+ensure proper memory management. Include a main function to demonstrate adding one Book and one Magazine to the Library and displaying their info.
+Notes:
+
+Keep it simple but ensure all OOP principles are covered.
+Use std::string for strings and std::vector for the collection in Library.
+Handle memory cleanup properly (e.g., virtual destructor). */
+
+
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+// Abstract base class (Abstraction)
+class LibraryItem {
+public:
+    virtual void displayInfo() = 0; // Pure virtual function
+    virtual ~LibraryItem() {} // Virtual destructor for proper cleanup
+};
+
+// Derived class for Book (Inheritance)
+class Book : public LibraryItem {
+private:
+    std::string title;
+    std::string author;
+    int pageCount;
+
+public:
+    Book(std::string t, std::string a, int pc) : title(t), author(a), pageCount(pc) {} // Constructor
+    void setTitle(std::string t) { title = t; } // Encapsulation
+    void setAuthor(std::string a) { author = a; }
+    void setPageCount(int pc) { if (pc >= 0) pageCount = pc; }
+    std::string getTitle() const { return title; }
+    std::string getAuthor() const { return author; }
+    int getPageCount() const { return pageCount; }
+    void displayInfo() override { // Polymorphism
+        std::cout << "Book: " << title << ", Author: " << author << ", Pages: " << pageCount << std::endl;
+    }
+};
+
+// Derived class for Magazine (Inheritance)
+class Magazine : public LibraryItem {
+private:
+    std::string title;
+    int issueNumber;
+    std::string publisher;
+
+public:
+    Magazine(std::string t, int in, std::string p) : title(t), issueNumber(in), publisher(p) {} // Constructor
+    void setTitle(std::string t) { title = t; } // Encapsulation
+    void setIssueNumber(int in) { if (in >= 0) issueNumber = in; }
+    void setPublisher(std::string p) { publisher = p; }
+    std::string getTitle() const { return title; }
+    int getIssueNumber() const { return issueNumber; }
+    std::string getPublisher() const { return publisher; }
+    void displayInfo() override { // Polymorphism
+        std::cout << "Magazine: " << title << ", Issue: " << issueNumber << ", Publisher: " << publisher << std::endl;
+    }
+};
+
+// Library class to manage collection (Encapsulation)
+class Library {
+private:
+    std::vector<LibraryItem*> items; // Store pointers for polymorphism
+
+public:
+    void addItem(LibraryItem* item) { items.push_back(item); }
+    void displayAllItems() {
+        for (LibraryItem* item : items) {
+            item->displayInfo(); // Polymorphic call
+        }
+    }
+    ~Library() { // Clean up memory
+        for (LibraryItem* item : items) {
+            delete item;
+        }
+    }
+};
+
+int main() {
+    Library library;
+    library.addItem(new Book("The C++ Guide", "Bjarne Stroustrup", 500)); 
+	// Heap allocation for polymorphism
+    library.addItem(new Magazine("Tech Weekly", 42, "Tech Press"));
+    library.displayAllItems(); // Displays both items polymorphically
+    return 0; // Library destructor handles cleanup
+}

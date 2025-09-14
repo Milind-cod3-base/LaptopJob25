@@ -1,0 +1,88 @@
+Software Architect (f/m/d) Simulation Control Stations for Airbus - job post
+STRATO Personal GmbH
+4.54.5 von 5 Sternen
+85077 Manching
+Festanstellung, Arbeitnehmerüberlassung, Vollzeit
+Informationen zum Profil
+Gleichen Sie hier die Qualifikationen für den Job mit Ihrem Profil
+ab.
+Fähigkeiten
+
+Haben Sie Berufserfahrung im Bereich Verhandlungsgeschick?
+&nbsp;
+Stellenbeschreibung
+Gleichen Sie hier die Stellenbeschreibung mit Ihrem Profil
+ab.
+Anstellungsart
+
+&nbsp;
+Arbeitsort
+85077 Manching
+&nbsp;
+Leistungen
+Aus der vollständigen Stellenbeschreibung
+
+    Reisekostenerstattung
+
+&nbsp;
+Vollständige Stellenbeschreibung
+
+Take off with us!
+
+We offer exciting projects at our renowned customer Airbus Defence and Space and we are looking for a motivated employee for the position "Software Architekt" (f/m/d) Simulation Control Stations
+
+(Reference number: 0466SU2025ADS)
+
+Your tasks:
+
+    Communicate with stakeholders and customers to gather and understand requirements
+    Define and architect the software foundation for simulation control stations, instructor operating stations and flight training debriefing stations
+    Design intuitive and user-friendly interfaces using a custom GUI framework based on Qt/QML
+    Define and maintain the overall technical architecture of the software, including the design and organization of the codebase, interfaces to other systems, the overall structure and organization of the software
+    Design, develop, test and maintain software by writing clean, efficient and maintainable code, and follow software development best practices. Analyze and debug software issues, and fix bugs
+    Identify and address technical risks and issues, and implement mitigation strategies as needed
+    Participate in planning, stand-up, review and retrospective meetings according to software development methodolgy
+    Participate in code reviews and ensure the code meets the defined coding standards
+    Ensure the software system design and architecture is scalable, maintainable and can be integrated with other systems
+    Mentor and train junior engineers in the Qt/QML technology stack and the derived architecture
+
+
+Your profile:
+
+    Completed studies in the field of computer science or a comparable qualification
+    Experience in software development with focus on frontend/UI applications
+    Experince in designing and implementing complex software architectures in a collaborative environment
+    Strong proficiency in C++ and Qt/QML technology stack is a must have
+    Experience with modern DevOps pipelines, containerization, and agile software development methodologies
+    Negotiation-level English skills
+    German is a plus
+
+
+We offer you:
+
+    Permanent employment contract
+    Perspective to be taken over at our customer
+    Salaries above the general pay scale and incentive compensations (bonus)
+    Equal pay model
+    Company pension scheme with employer subsidy
+    Well-directed training and further education opportunities
+    Employee recommendation program with attractive compensations (bonus)
+    Individual and local support and advice
+    Travel allowance
+    Assumption of costs for work cloth and health examinations
+    fleixible working hours and partly home office
+    Innovative and leading companies like Airbus Operations, Airbus Aerostructures, Airbus Defence & Space, Premium Aerotec, Airbus Helicopters and the aerospace supply industry
+
+Interested?
+
+Then please apply with your complete application documents. (Curiculum vitae and your certificates from the last three professional positions.)
+
+Please understand that your documents cannot be returned because of organizational reasons. Therefore, refrain from sending expensive folders and photos, as well as original documents.
+
+Please note that we process or store your data electronically in our IT system when you apply, in accordance with the provisions of the Federal Data Protection Act. With your application you agree to the electronic processing / storage of your data. You can disagree at any time if you do not want your data stored.
+
+As a dynamic and modern personnel service provider we offer you, based on our long-standing experience and extensive market know-how in a wide range of different industries, exciting job positions at interesting and innovative companies. Benefit from our national and international networks and use STRATO personal as your personal steppingstone. We offer you comprehensive support and take over all administrative processes related to the application - and of course it is free of charge for you.
+
+STRATO personal GmbH
+
+Temporary Employment/Employment Placement/Outsourcing/Head Hunting/Onsite Management

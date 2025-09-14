@@ -1,0 +1,19 @@
+how to create doc:
+
+1. use google docs:
+	- undestanding of the assignements
+		- assumptions
+		- requirements
+	
+	- UI proposal:
+		- dockable window to the right bottom of the main window 
+		- widgets
+		- add pic
+		
+	- Non destructive Data Handling
+		- selected mode logic
+		- slider moved logic
+		- apply hit logic
+		- hit revert logic
+		
+	- Class diagram:

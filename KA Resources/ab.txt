@@ -1,0 +1,149 @@
+Embedded Qt/C++ Software Developer (m/w/d) - job post
+KA Resources
+4.74.7 von 5 Sternen
+01109 Dresden•Hybrides Arbeiten
+60.000 € – 70.000 € pro Jahr - Festanstellung, Vollzeit
+KA Resources
+01109 Dresden•Hybrides Arbeiten
+60.000 € – 70.000 € pro Jahr
+Informationen zum Profil
+Gleichen Sie hier die Qualifikationen für den Job mit Ihrem Profil
+ab.
+Fähigkeiten
+
+Haben Sie Berufserfahrung im Bereich Embedded software?
+Sprachen
+
+&nbsp;
+Stellenbeschreibung
+Gleichen Sie hier die Stellenbeschreibung mit Ihrem Profil
+ab.
+Gehalt
+
+Anstellungsart
+
+Schichten und Arbeitszeiten
+
+&nbsp;
+Arbeitsort
+01109 Dresden•Hybrides Arbeiten
+&nbsp;
+Leistungen
+Aus der vollständigen Stellenbeschreibung
+
+    Betriebliche Weiterbildung
+    Gleitzeit
+    Kostenlose Getränke
+    Betriebsarzt/Betriebsärztin
+    Weiterbildungsprogramme
+    Mentoring-Programm für Mitarbeiter
+    Mitarbeiter-Rabatt
+    Kostenloser Parkplatz
+    Sprachkenntnisse werden vermittelt
+    Preisnachlässe auf Produkte/Dienstleistungen des Unternehmens
+    Betriebliche Altersvorsorge
+    Firmenfahrrad-Leasing
+    Homeoffice-Möglichkeit
+    Firmenevents
+    Flexible Arbeitszeiten
+
+&nbsp;
+Vollständige Stellenbeschreibung
+
+Für meinen Mandanten, ein weltweit führendes, aus 1900 Experten bestehendes Unternehmen, das sich von der Erzeugung bis hin zum Konsum der Energieversorgung widmet, suche ich mehrere Embedded Qt/C++ Software Developer (m/w/d) für die Erweiterung des Forschung & Entwicklung Teams.
+
+Embedded Qt/C++ Software Developer (m/w/d)
+In unbefristeter Festanstellung
+Gehalt: 60.000 € bis 70.000 € je nach Berufserfahrung + variabler Anteil
+Standort: nördlich von Dresden oder Bamberg
+Ref. 27285
+
+Was von Ihnen erwartet wird:
+
+    Sie sind beteiligt an der Gestaltung der Software-Komponenten der neuen Produkte.
+    Sie entwickeln Software (Embedded Linux) für die Systeme und Produkte im Bereich Messtechnik & Hochspannungsprüfung.
+    Sie erstellen Linux Packages & Kerneltreiber.
+    Sie programmieren Software für Applikationen im Qt4/5 Framework mit C++.
+
+Was Sie mitbringen:
+
+    Sie haben ein abgeschlossenes Studium der Informatik oder eine vergleichbare Ausbildung.
+    Sie haben mindestens 3 bis 5 Jahre Berufserfahrung in der Software-Entwicklung.
+    Sie haben Erfahrung mit OOP von Applikationen mit C++
+    Sie haben tiefgehende Kenntnisse im Qt4 oder Qt5 Framework
+    Sie haben Erfahrungen mit CI/CD, Bug tracking sowie in der Versionsverwaltung (Workflows, Tools, Methoden)
+    Sie haben Deutschkenntnisse B2 Niveau oder höher.
+
+Persönlich sollten Sie gerne im Team und in der Produktentwicklung arbeiten, Ihre Ideen einbringen wollen, um das Team und das Unternehmen sowie Lösungen voranzubringen für eine moderne Zukunft und Gegenwart, eine strukturierte und zielorientierte Arbeitsweise haben, mit dem Ziel, qualitativ hochwertige Lösungen zu entwickeln. Wünschenswert sind eine selbstständige Arbeitsweise, sehr gute Kommunikationsfähigkeiten und Teamfähigkeit. Um Ihr Profil abzurunden, sollten Sie eine schnelle Auffassungsgabe haben und gerne mit dem Unternehmen eine moderne und sichere Zukunft gestalten.
+
+Was Ihnen geboten wird:
+
+· Flexible Arbeitszeiten und Gleitzeitmodelle
+
+· Kernarbeitszeiten zwischen 9:00 und 14:00 Uhr
+
+· Flache Hierarchien
+
+· bis zu 2 Tage die Woche Home-Office
+
+· 30 Urlaubstage
+
+· Weiterbildung mit individuellem Budget zur persönlichen Entwicklung
+
+· Ergänzende Gesundheits- und Unfallversicherungen
+
+· Programme zur Gesundheitsförderung (z. B. Zuschüsse, Gesundheitstage)
+
+· Zuschüsse zur Altersvorsorge
+
+· Möglichkeit zum JobRad-Leasing
+
+· Elektroladesäule
+
+· Regelmäßige Teamevents und Vergünstigungen
+
+· Familienfreundliche Unternehmenskultur
+
+Dieses Stellenangebot klingt interessant, entspricht aber nicht genau Ihren Vorstellungen? Setzen Sie sich trotzdem mit mir in Verbindung: Ich habe ständig unterschiedliche offene Vakanzen anzubieten, manche davon, bevor sie überhaupt veröffentlicht werden und pflege dabei einen engen Kontakt zu den Entscheidern bei unseren Kunden. Bestimmt ist auch etwas für Sie dabei!
+
+Ihre Ansprechpartnerin
+
+Jessica Böhm
+
+j.boehm@karesources.com
+
+✆ +49 228 286 59 409
+
+www.karesources.com
+
+#indeed1
+
+Art der Stelle: Vollzeit, Festanstellung
+
+Gehalt: 60.000,00€ - 70.000,00€ pro Jahr
+
+Leistungen:
+
+    Betriebliche Altersvorsorge
+    Betriebliche Weiterbildung
+    Betriebsarzt/Betriebsärztin
+    Firmenevents
+    Flexible Arbeitszeiten
+    Gleitzeit
+    Homeoffice-Möglichkeit
+    Kostenlose Getränke
+    Kostenloser Parkplatz
+    Mentoring-Programm für Mitarbeiter
+    Mitarbeiter-Rabatt
+    Preisnachlässe auf Produkte/Dienstleistungen des Unternehmens
+    Sprachkenntnisse werden vermittelt
+
+Berufserfahrung:
+
+    Embedded software: 3 Jahre (Wünschenswert)
+
+Sprache:
+
+    Verhandlungssicher Deutsch (Wünschenswert)
+
+Arbeitsort: Zum Teil im Homeoffice in 01109 Dresden
