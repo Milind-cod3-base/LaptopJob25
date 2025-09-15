@@ -1,0 +1,12 @@
+C++ versions - pros and cons
+multithreading questions
+design patterns and software architectures
+look deep into why u didnt use MVC architecture in the homework.
+basics of git.
+auto keyword
+revise old dsa questions
+
+==
+
+- tell them that words like vibro-acoustic-simulation is not new to use
+	- as i have done mechanical engineering.
