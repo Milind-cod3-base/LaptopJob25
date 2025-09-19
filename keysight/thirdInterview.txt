@@ -1,12 +1,177 @@
-C++ versions - pros and cons
-multithreading questions
-design patterns and software architectures
-look deep into why u didnt use MVC architecture in the homework.
-basics of git.
-auto keyword
-revise old dsa questions
+3rd round expectations:
 
-==
+Note: 
 
+	- Homework
+		- (Walkthrough) How did u proceed with the homework?, show us your thinking
+		
+			- walkthrough
+				- justify decision
+				- discuss improvements
+				- cpp implication
+				- what other ways you could have done
+					- might be its dedicated window if not dockable?
+					
+			ques: (Walkthrough) How did u proceed with the homework?, show us your thinking
+			- I broke the assignments into two parts:
+				- Assumptions: 
+					- existing app: 
+						imports vrml -> shows scene graph tree -> renders the 3d model with OpenGL
+					- target language cpp is wrongly placed in requirements, it must be placed in assumptions.
+				
+				- Requested:
+					- exploded view feature 
+					- UI proposal (setup and steer)
+					- class diagram
+			
+			- Extension of software via docking it:
+				- Option to open it is in tools. (missed to mention this in the interview)
+				- cleanest option with easy user flow integration
+					- what could be other ways?
+			
+			
+			- Hand drew the UI
+				- Wanted to show whiteboarding skills
+				- Could have done with online tools 
+					- Ques: Name of the tools?
+					- Ques: What elements of GUI or tools am I missing? Need to check net.
+					
+			- grok: https://grok.com/c/1da53d27-cb80-4748-ba76-c1bb94fd8825
+	
+
+			ques: Other widgets that could be used instead of currently chosen ones, why did u choose these widgets only?
+			ques: Logic: 
+					Non destructive explosion (backups, recursive offsets)
+					modes (radial vs. axis)
+					slider/factor normalization
+			ques: What improvements?
+				- Animation
+					- How would you modify ExplodeUI to support real-time animation of the explosion?
+				- Multi selection
+					- allowing users to choose multiple nodes in scene graph tree
+					- enabling targeted explosion on specific sub assemblies
+				- Forgot to add close dock tab button. (WAIT MAYBE QTDOCKWIDGET ALREADY COMES WITH IT, NEED TO CHECK)
+				- There is an error, if the slider is being moved and apply isnt click, WHAT WILL HAPPEN? WILL IT STAY STUCK? 
+					THIS IS AN ERROR OR CORRECTION I CAN TELL FROM MY SIDE THAT
+			ques: OOP principals used?
+			ques: How does ExplodeManager handle recursive offsets?
+			ques: What’s the purpose of the originals map? over a stack or array?
+			ques: Why non-destructive design?
+			ques: How would you extend for multi-selection?
+			ques: Explain C++ memory management in SceneNode.
+			ques: What if VRML data is malformed?
+				 - Use QMessageBox to display warning / error to the user.
+			ques: What trade-offs did you consider when choosing QDockWidget over a standalone window?
+			ques: How would you handle concurrent UI updates and OpenGL rendering to avoid race conditions?
+			ques: How does your design ensure thread safety in SceneNode transformations?
+			ques: What performance metrics would you monitor to validate the explosion logic efficiency?
+		- Revise VRML format
+		- Look into OpenGL
+		- how to read and create class diagram
+			- what tool did use for it ?
+			- MADE A TINY MISTAKE: the composite class has the diamond next to it.
+		- How does the steering works?
+			- in radial, how does the offset are applied?
+		- Could have removed the Apply button
+		- How does each method mentioned in the class diagram is implemented? rough oral idea?
+		- What are the major methods of the widgets used in the GUI?
+		- Why did choose factor normalised between 0 and 1?
+			- and how does the offset works if the multiply factor is less than 1?
+		- Why ExplodeUI is a child of QWidget?
+		- Can I use QStringListModel in my Homework's Combo box?
+		- Mods:
+			- practice with more requirements in the same problem set.
+				- how can it be extended?
+				- what widgets and classes would I need for new requirement
+					- learn new widgets and extension
+		- Implement the current homework
+			- make a simple front end
+			- dock the widget to right
+			- use logs to log out whenever a widget is moved or pressed.
+			
+		
+	- Invigilators (DONE):
+		1. Luca: https://www.linkedin.com/in/luca-alimonti-6b162535/
+			- Technical Leader Specialist R&D
+			- Looks less of a soft dev, but more of a senior acoustic person
+			- VA One team
+		2. Mathias Block (4years) : https://www.linkedin.com/in/matthias-block-0ba638/
+			- germany, says darmstadt, may be he didnt update to frankfurt
+			- senior softwre dev
+			- VA One team
+			
+		
+			
+	- Qt 
+		- What is QML?
+		- What are the main modules of qt
+			- eg. Qt core, widgets etc.
+		- Qt different versions?
+			- Qt 5 vs 6
+		- Q_Object macro?
+			- does it allow meta features? what is meta features?
+		- Common practices
+		- How did I or did I not I use MVC in my homework?
+		- What does QApplication app (argc, argv) do in main function?
+		- What is Qt test?
+		- What data model to use and when?
+		
+		
+		
+	- revise C++:
+		- look for them in secondinterviewprep.txt
+		- Auto keyword
+		- composition vs inheritence? (DONE)
+		- What is RAII?
+		- Difference between software design and architecture?
+		- C++ versions 
+			- pros and cons
+		- Multithreading questions
+		
+		
+		
+	- Prepare about the company
+		- Listen to andreas last meeting voice notes
+		- Learn about VA One (DONE)
+		- Ask grok about past assignemt interviews (DONE)
+				
+				
+				
+	- what was the word I missed with andreas meeting?
+
+
+
+	- DSA revision
+		- Design patterns and software architectures
+		
+		
+	- Basics of git.
+	
+	
+	- look into VA One product (Done)
+		- what it does (done)
+			VA One notes:
+				1. AVA : aero - vibro - acoustic simulation
+				2. Traditionally AVA sim is done after building prototype
+					- VA One lets user do it in the design phase
+					- saving effort, time , money , materials etc
+
+		- look if they have a GUI (not mentioned,but got the general idea)
+	
+
+===========
+Note:
 - tell them that words like vibro-acoustic-simulation is not new to use
 	- as i have done mechanical engineering.
+	- tell them since u r familiar with both mechanical engineering and software 
+	engineering, I can not only contribute to software components pf va one but also
+	understand and contribute in a bigger sense. not only understand it technically 
+	software wise but also understand the user requirements deeply and suggest 
+	feedback ina more productive way or contribute to productive suggestions. 
+	use mechanical engineering as a weapon
+	
+- Questions to ask in the interview:
+	- What version of qt and cpp do they use.
+
+===========
+
