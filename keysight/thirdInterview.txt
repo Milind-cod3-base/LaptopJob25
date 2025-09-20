@@ -1,94 +1,279 @@
 3rd round expectations:
 
 Note: 
-
+20 sept 2025
 	- Homework
 		- (Walkthrough) How did u proceed with the homework?, show us your thinking
 		
 			- walkthrough
 				- justify decision
 				- discuss improvements
-				- cpp implication
+				- cpp implementation
 				- what other ways you could have done
 					- might be its dedicated window if not dockable?
 					
 			ques: (Walkthrough) How did u proceed with the homework?, show us your thinking
-			- I broke the assignments into two parts:
-				- Assumptions: 
-					- existing app: 
-						imports vrml -> shows scene graph tree -> renders the 3d model with OpenGL
-					- target language cpp is wrongly placed in requirements, it must be placed in assumptions.
-				
-				- Requested:
-					- exploded view feature 
-					- UI proposal (setup and steer)
-					- class diagram
-			
-			- Extension of software via docking it:
-				- Option to open it is in tools. (missed to mention this in the interview)
-				- cleanest option with easy user flow integration
-					- what could be other ways?
-			
-			
-			- Hand drew the UI
-				- Wanted to show whiteboarding skills
-				- Could have done with online tools 
-					- Ques: Name of the tools?
-					- Ques: What elements of GUI or tools am I missing? Need to check net.
+				- I broke the assignments into two parts:
+					- Assumptions: 
+						- existing app: 
+							-> imports vrml (.wrl) 
+								- worked with gltf at neutron
+								- looked into vrml via sample codes
+								- understood the architecture
+							-> shows scene graph tree 
+								- Nodes (nested)]
+									- transforms (postion, rotation, scaling)
+								
+								- HOW TO BUILD SCENE GRAPH FROM VRML AND USE IT TO CONENCT TO THE EXPLOSION
+								
+							-> renders the 3d model with OpenGL
+								- top 10 used methods
+								- use an online renderer.
+						
+						- target language cpp is wrongly placed in requirements, it must be placed in assumptions.
 					
-			- grok: https://grok.com/c/1da53d27-cb80-4748-ba76-c1bb94fd8825
+					- Requested:
+						- exploded view feature 
+						- UI proposal (setup and steer)
+						- class diagram
+				
+				- Extension of software via docking it:
+					- Option to open it is in tools. (missed to mention this in the interview)
+					- cleanest option with easy user flow integration
+						- what could be other ways?
+				
+				
+				- Hand drew the UI
+					- Wanted to show whiteboarding skills
+					- Could have done with online tools 
+						- Ques: Name of the tools?
+						- Ques: What elements of GUI or tools am I missing? Need to check net.
+						
+				- grok: https://grok.com/c/1da53d27-cb80-4748-ba76-c1bb94fd8825
 	
 
-			ques: Other widgets that could be used instead of currently chosen ones, why did u choose these widgets only?
-			ques: Logic: 
-					Non destructive explosion (backups, recursive offsets)
-					modes (radial vs. axis)
-					slider/factor normalization
-			ques: What improvements?
-				- Animation
-					- How would you modify ExplodeUI to support real-time animation of the explosion?
+			ques: Improvements?
+				
+				- optimise redrawRequested()
+					- donot redraw entire model if a node is selected.
+					- glPushMatrix();  // Save unexploded matrix state
+					  renderSubtree(node);  // Render only exploded node and kids
+					  glPopMatrix();  // Restore matrix, but unexploded parts persist from prior render
+				
+				- Adaptive factoring: 
+					- use model bounding radius to get adaptive magnitude of offset.
+					
+				- Is update function in the UI redundant?
+					- or does it call redrawRequested()?
+					- or it can be triggered during any change in GUI widgets
+						- mode
+						- factor
+								
+					
 				- Multi selection
 					- allowing users to choose multiple nodes in scene graph tree
 					- enabling targeted explosion on specific sub assemblies
+					- How to extend current code to take multiple nodes?
+						- or will it call same code chunk for all the separate targeted parent nodes.
+					- reset selected node / each parent node
+					- could use a vector? to hold all nodes?
+					
+				- Oversight - forgot to mention things.
+					- User can close the docks and reopen from the tools menu. 
+					- Did no connection with using scene-graph build by the software during vrml loading
+						- could have levereaged this scene graph widget to select parent nodes
+						- then that selected node could be passed from the qt tree of scene graph to the explosion manager
+							- can add another section in explosion tab:
+								- "current node selected"
+									- name of node? geometry tag in the vrml file ?
+								- why I didnt add?
+									- to remove cluttering
+									- as user can see curent selected root node visually in the scene graph or in the viewport
+									
+				
+				- Animation
+					- How would you modify ExplodeUI to support real-time animation of the explosion?
+				
 				- Forgot to add close dock tab button. (WAIT MAYBE QTDOCKWIDGET ALREADY COMES WITH IT, NEED TO CHECK)
 				- There is an error, if the slider is being moved and apply isnt click, WHAT WILL HAPPEN? WILL IT STAY STUCK? 
 					THIS IS AN ERROR OR CORRECTION I CAN TELL FROM MY SIDE THAT
-			ques: OOP principals used?
-			ques: How does ExplodeManager handle recursive offsets?
-			ques: What’s the purpose of the originals map? over a stack or array?
-			ques: Why non-destructive design?
-			ques: How would you extend for multi-selection?
-			ques: Explain C++ memory management in SceneNode.
+					- Could have removed the Apply button
+					
+				- Undo button using  QUndoStack
+			
+			ques: Logic: 
+					
+					- flag (boolean) exploded or not
+					- Non destructive explosion (backups, recursive offsets)
+					
+					- modes (radial vs. axis) (done)
+						- radial 
+							- direction: parent to child
+							- magnitude : factor (0-1) - unit vector at max capacity	
+								- dynamic factor: factor * radius of original model 
+						- axial:
+							- direction: along one axis
+							- mangnitude: same as radial.
+					
+					- slider/factor normalization (Done)
+					- Each methods
+			
+			
 			ques: What if VRML data is malformed?
 				 - Use QMessageBox to display warning / error to the user.
-			ques: What trade-offs did you consider when choosing QDockWidget over a standalone window?
+				 
+			ques: How does ExplodeManager handle recursive offsets?
+					- using commitExplosion()
+			
+			
+			ques: Other widgets that could be used instead of currently chosen ones, why did u choose these widgets only?
+
+			ques: OOP principals used?	
+			ques: What’s the purpose of the originals map? over a stack or array?
+			ques: Explain C++ memory management in SceneNode.
 			ques: How would you handle concurrent UI updates and OpenGL rendering to avoid race conditions?
 			ques: How does your design ensure thread safety in SceneNode transformations?
 			ques: What performance metrics would you monitor to validate the explosion logic efficiency?
-		- Revise VRML format
-		- Look into OpenGL
-		- how to read and create class diagram
-			- what tool did use for it ?
-			- MADE A TINY MISTAKE: the composite class has the diamond next to it.
-		- How does the steering works?
-			- in radial, how does the offset are applied?
-		- Could have removed the Apply button
-		- How does each method mentioned in the class diagram is implemented? rough oral idea?
-		- What are the major methods of the widgets used in the GUI?
-		- Why did choose factor normalised between 0 and 1?
-			- and how does the offset works if the multiply factor is less than 1?
-		- Why ExplodeUI is a child of QWidget?
-		- Can I use QStringListModel in my Homework's Combo box?
+		
+		- Revise VRML format (Done)
+			- nodes 
+				- transforms (trs)
+				- shapes
+				- viewpoint
+				- materials
+		
+		- Implementation the current homework
+			- make a simple front end
+			- dock the widget to right
+			- use logs to log out whenever a widget is moved or pressed
+			- how does getting bounding boxes works programmatically?
+			
 		- Mods:
 			- practice with more requirements in the same problem set.
 				- how can it be extended?
 				- what widgets and classes would I need for new requirement
 					- learn new widgets and extension
-		- Implement the current homework
-			- make a simple front end
-			- dock the widget to right
-			- use logs to log out whenever a widget is moved or pressed.
+		
 			
+	
+	- Qt 
+		- What is QML? (done)
+			- declarative language like CSS
+			- defines strucutre and behaviour
+			- c++ is used for logic
+			- could be written manually: 
+				- write a JSON style QML file
+					import QtQuick
+					import QtQuick.Controls
+					import QtQuick.Layouts
+					ApplicationWindow {
+						visible: true
+						width: 300
+						height: 400
+						title: "Simple QML App"
+						ColumnLayout {
+							anchors.fill: parent
+							ListView {
+								id: nameList
+								Layout.fillWidth: true
+								Layout.fillHeight: true
+								model: ListModel {  // list model.
+									ListElement { name: "Alice" }
+									ListElement { name: "Bob" }
+									ListElement { name: "Charlie" }
+								}
+								delegate: Text { text: name }
+							}
+							Button {
+								text: "Add Name"
+								Layout.alignment: Qt.AlignHCenter
+								onClicked: nameList.model.append({name: "New Person " + (nameList.model.count + 1)})
+						}}}
+				- import in cpp code like:
+					#include <QApplication>
+					#include <QQmlApplicationEngine>
+
+					int main(int argc, char *argv[]) {
+						QApplication app(argc, argv);
+						QQmlApplicationEngine engine;
+						engine.load(QUrl("qrc:/main.qml")); // this is the qml file written with gui structure.
+						return app.exec();
+					}
+					
+		- What are the main modules of qt
+			- 7 essentials
+				- Core
+					- Provides non-GUI foundation classes for strings, containers, threading, and file I/O.
+					- Includes utilities like QObject, QString, and QTimer for cross-platform app logic.
+				- GUI
+					- Handles graphics fundamentals, including painting, fonts, images, and OpenGL abstractions.
+					- Supports high-DPI rendering and cross-platform windowing via QWindow and QPainter.
+				- Widgets
+					- Offers traditional desktop UI components like buttons, dialogs, and menus.
+					- Used with QMainWindow, QPushButton, etc., for native-looking desktop apps.
+				- QML
+					- Provides the QML engine and runtime for declarative UI development with Qt Quick.
+					- Manages QML parsing and execution, integrating with C++ via QQmlEngine.
+				- Quick
+					- Powers fluid 2D/3D UIs with a scene graph, animations, and components like ListView.
+					- Ideal for modern, touch-based, or mobile apps using QML.
+				- Test
+					- Facilitates unit testing for C++ and QML code with test frameworks.
+					- Includes QTest for writing and running test cases.
+					- using QVerify and QCompare macros.
+				- Network
+					- Enables network programming with HTTP, TCP/UDP, and SSL support.
+					- Includes classes like QNetworkAccessManager for web requests and QTcpSocket for sockets.
+		
+		- Qt different versions?
+			- Qt 5 vs 6
+		
+		- Q_Object macro? (Done)
+			- base import QObject is the base class for qt
+			- provides signal slot mechanism
+			- tells the meta-object compiler (moc) to process the class for signals, slots, and properties	
+		
+		- How did I or did I not I use MVC in my homework?
+		
+		- What does QApplication app (argc, argv) do in main function? (done)
+			- initlialises qt app
+				- setups event loop
+				- GUI environment
+					- handles windows
+					- resources
+			- argc is console arguments count
+			- argv is the full command 
+				- argv[0] is the program name in ./myapp --style=fusion
+		
+		- What is Qt test? (done)
+			- unit testing using QCompare and QVerify macros.
+		- What data model to use and when? (done)
+			- QAbstractItemModel : 
+				- no data storage methods. must be overridden
+				- Base abstract class for all item-based models (lists, tables, trees).
+				- Defines interface: data, setData, rowCount, columnCount, index, parent.
+			- QStandardItemModel
+				- Concrete model for lists, tables, or trees, inherits from QAbstractItemModel.
+				- Uses QStandardItem for data storage; methods: setItem, appendRow.
+			- list (single coloumn, like stringlist storing list items of strings of names)
+				- QAbstractListModel
+					- Abstract class for single-column lists, inherits from QAbstractItemModel.
+					- Simplifies implementation for linear data.
+				- QStringListModel
+					- Concrete model for a list of strings, inherits from QAbstractListModel.
+					- Methods: setStringList, stringList.
+					- implements methods for storing strings.		
+			- table (2d, no heirarchy)
+				- QAbstractTableModel
+					- Abstract class for 2D tables, inherits from QAbstractItemModel.
+					- Simplifies implementation for grid data.
+				- QSqlTableModel
+					- Editable model for SQL tables, inherits from QAbstractTableModel.
+					- Methods: setTable, select, setFilter.
+			- tree (heirarchy)
+			
+		- Common practices
+	
 		
 	- Invigilators (DONE):
 		1. Luca: https://www.linkedin.com/in/luca-alimonti-6b162535/
@@ -99,24 +284,9 @@ Note:
 			- germany, says darmstadt, may be he didnt update to frankfurt
 			- senior softwre dev
 			- VA One team
-			
 		
-			
-	- Qt 
-		- What is QML?
-		- What are the main modules of qt
-			- eg. Qt core, widgets etc.
-		- Qt different versions?
-			- Qt 5 vs 6
-		- Q_Object macro?
-			- does it allow meta features? what is meta features?
-		- Common practices
-		- How did I or did I not I use MVC in my homework?
-		- What does QApplication app (argc, argv) do in main function?
-		- What is Qt test?
-		- What data model to use and when?
-		
-		
+====================================================================================================
+21 sept 2025
 		
 	- revise C++:
 		- look for them in secondinterviewprep.txt
@@ -172,6 +342,11 @@ Note:
 	
 - Questions to ask in the interview:
 	- What version of qt and cpp do they use.
+	
+- Tell them since I was free to choose any document format:
+	- I chose the same format which I use to my daily log file. 
+	- its in notes format
+	- by this I also wanted to showcase my personal work management.
 
 ===========
 
